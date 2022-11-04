@@ -9,4 +9,4 @@ app.use('/*', (req, res)=>{
     res.sendFile(pathToIndex);
 });
 
-module.exports(app);
+module.exports = app;
